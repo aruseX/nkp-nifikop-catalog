@@ -7,4 +7,4 @@ metadata:
 spec:
   interval: 10m #how long it polls to check for updates on the HelmRepo
   timeout: 1m #how long before timeout
-  url: "${helmMirrorURL:=oci://registry-1.docker.io/bitnamicharts/zookeeper}" #defaults to oci://registry-1.docker.io/bitnamicharts/zookeeper if $helmMirrorURL envVar is not set
+  url: "${helmMirrorURL:=https://hub.docker.com/r/bitnamicharts/zookeeper}" #defaults to https://hub.docker.com/r/bitnamicharts/zookeeper if $helmMirrorURL envVar is not set
