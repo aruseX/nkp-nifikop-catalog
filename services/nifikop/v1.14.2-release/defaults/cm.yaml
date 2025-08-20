@@ -1,1 +1,9 @@
- 
+ apiVersion: v1
+kind: ConfigMap
+metadata:
+  #Name must match the name of the .spec.valuesFrom[0].name in the HelmRelease above
+  name: nifikop-v1.14.2-release-defaults 
+  namespace: ${releaseNamespace}
+data:
+  values.yaml: |-
+    ---

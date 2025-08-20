@@ -7,4 +7,4 @@ metadata:
 spec:
   interval: 10m #how long it polls to check for updates on the HelmRepo
   timeout: 1m #how long before timeout
-  url: "${helmMirrorURL:=https://ghcr.io/konpyutaika/helm-charts/nifikop}" #defaults to http://ghcr.io/konpyutaika/helm-charts/nifikop if $helmMirrorURL envVar is not set
+  url: "${helmMirrorURL:=https://ghcr.io/konpyutaika/helm-charts/nifikop}" #defaults to https://ghcr.io/konpyutaika/helm-charts/nifikop if $helmMirrorURL envVar is not set

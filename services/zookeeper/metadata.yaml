@@ -1,7 +1,7 @@
 displayName: Zookeeper
 description: Applicaiton Orchetration. Distributed Config File Management.
 category:
-  - Backup
+  - General
 type: catalog
 allowMultipleInstances: false
 scope:

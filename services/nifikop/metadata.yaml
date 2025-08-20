@@ -1,7 +1,7 @@
 displayName: NiFiKop
 description: The Extract, Tranform, and Load tool to end all ETL tools
 category:
-  - Backup
+  - General
 type: catalog
 allowMultipleInstances: false
 scope:
